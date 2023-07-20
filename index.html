@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100;400;700&family=Overpass:wght@400;700&display=swap" rel="stylesheet">
+  
+  <title>Frontend Mentor | Interactive rating component</title>
+</head>
+<body>
+  <div id="app-wrapper">
+    <img src="./design/star.svg" alt="star-icon">
+    <h1>How did we do?</h1>
+    <p>Please let us know how we did with your support request. All feedback is appreciated to help us improve our offering!</p>
+    <div id="buttons">
+      <button onclick="toggleClass(this)" class="num-btns" alt="review-btn">1</button>
+      <button onclick="toggleClass(this)" class="num-btns" alt="review-btn">2</button>
+      <button onclick="toggleClass(this)" class="num-btns" alt="review-btn">3</button>
+      <button onclick="toggleClass(this)" class="num-btns" alt="review-btn">4</button>
+      <button onclick="toggleClass(this)" class="num-btns" alt="review-btn">5</button>
+    </div>
+    <button onclick="display()" alt="submit-btn" id="submit-btn">SUBMIT</button>
+  </div>
+  <div id="popup">
+    <img src="./design/icon.svg" alt="icon-png" id="design">
+    <div id="rating">You selected 4 out of 5</div>
+    <h2>Thank you!</h2>
+    <p id="rating-message">We appreciate you taking the time to give a rating. If you ever need more support, don’t hesitate to get in touch!</p>
+  </div>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://www.linkedin.com/in/matthew-young-093a291b3/" target="_blank">Matthew</a>.
+  </div>
+  <script src="./app.js"></script>
+</body>
+</html>

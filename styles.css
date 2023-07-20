@@ -1,0 +1,143 @@
+:root {
+    background-color: #131518;
+  }
+  
+  body {
+    font-family: 'Overpass', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+  }
+  
+  #app-wrapper {
+    background-color:  #202731;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 412px;
+    width: 416px;
+    border-radius: 30px;
+  }
+
+  #popup{
+    display: none;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 412px;
+    width: 416px;
+    background-image: radial-gradient(circle, #232A34, #181E27);
+    border-radius: 30px;
+  }
+
+  #rating{
+    font-size: .8rem;
+    width: 193px;
+    height: 32px;
+    background-color: #262E38;
+    color: #FC7614;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+  }
+
+  #design{
+    padding-left: 0;
+    align-self: center;
+    padding-bottom: 1rem;
+  }
+  
+  h1 {
+    color: white;
+    align-self: flex-start;
+    padding-left: 3rem;
+  }
+
+  h2{
+    color:white;
+    font-weight: 400;
+    margin-bottom: .5rem;
+  }
+  
+  img {
+    align-self: flex-start;
+    padding-left: 3rem;
+  }
+  
+  p {
+    color: #7C8798;
+    margin: 0;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    font-size: 15px;
+    line-height: 1.5rem;
+  }
+
+#rating-message{
+    text-align: center;
+}
+  
+  button {
+    width: 51px;
+    height: 51px;
+    border-radius: 50%;
+    border: none;
+    color: #7C8798;
+    background-color: #262E38;
+    margin: .5rem;
+  }
+  
+  .num-btns:not(.activate):hover {
+    background-color: #7C8798;
+    color: white;
+    transition: color 0.5s;
+  }
+  
+  .num-btns.activate:hover {
+    background-color: #FC7614;
+    color: white; 
+  }
+  
+  .activate {
+    background-color: #FC7614;
+    color: white;
+    transition: background-color 0.5s, color 0.5s;
+  }
+  .hover {
+    background-color: #262E38;
+    color: #7C8798;
+    transition: background-color 0.5s, color 0.5s;
+  }
+  
+  #submit-btn {
+    margin-top: 1rem;
+    width: 341px;
+    height: 45px;
+    border-radius: 20px;
+    color: white;
+    background-color: #FC7614;
+    font-family: 'Overpass';
+    font-weight: 700;
+    font-size: 1rem;
+  }
+  
+  #submit-btn:hover {
+    transition: color 1s, background-color 1s;
+    background-color: white;
+    color: #FC7614;
+  }
+
+  .attribution{
+    font-weight: 'Overpass';
+    color: white;
+    padding-top: 1rem;
+  }
+
+  a{
+    color: #FC7614;
+  }
+  
